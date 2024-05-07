@@ -1,0 +1,46 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    pointer-events: none;
+    background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+header{
+    background:  rgba(2,0,36,1);
+}
+
+ul li a{
+    list-style: none;
+    text-decoration: none;
+    padding: 3px;
+    color: white;
+    font-size: larger;
+}
+main{
+    background: white;
+    margin: auto;
+    width: 90%;
+    padding: 20px;
+}
+
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.flex .box{
+    flex: 1 1 200px;
+    margin: 5px;
+    text-align: center;
+}
+
+.inline{
+    display: inline-block;
+}
+
+.center{
+    text-align: center;
+}
+
