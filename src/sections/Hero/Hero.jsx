@@ -1,5 +1,6 @@
 import styles from "./HeroStyles.module.css";
-import heroImg from "../../assets/self_no_bg.png";
+import heroDark from "../../assets/self-no-bg-night.png";
+import heroLight from "../../assets/self-anime.jpeg";
 import sun from "../../assets/sun.svg";
 import moon from "../../assets/moon.svg";
 import twitterLight from "../../assets/twitter-light.svg";
@@ -18,7 +19,7 @@ function Hero() {
   const twitterIcon = theme === "light" ? twitterLight : twitterDark;
   const githubIcon = theme === "light" ? githubLight : githubDark;
   const linkedinIcon = theme === "light" ? linkedinLight : linkedinDark;
-
+  const heroImg = theme === "light" ? heroLight : heroDark;
   return (
     <section id="hero" className={styles.container}>
       <div className={styles.colorModeContainer}>
